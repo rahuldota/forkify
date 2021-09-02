@@ -128,7 +128,8 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
-  addRecipeView.addHandlerUpload(controlAddRecipe);
+    addRecipeView.addHandlerUpload(controlAddRecipe);
+    console.log("new branch");
 };
 init();
 console.log("test");
